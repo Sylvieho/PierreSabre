@@ -23,7 +23,7 @@ public class Humain {
 	}
 
 	private String prendreParole() {
-		return "L'humain " + nom + " : ";
+		return "(" + nom + ") - ";
 	}
 	
 	public void direBonjour() {
