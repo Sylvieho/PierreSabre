@@ -22,7 +22,7 @@ public class Humain {
 	}
 	
 	public void parler(String texte) {
-		System.out.println(prendreParole() + "« " + texte + "»");
+		System.out.println(prendreParole() + texte);
 	}
 
 	private String prendreParole() {
@@ -30,7 +30,7 @@ public class Humain {
 	}
 	
 	public void direBonjour() {
-		parler("Bonjour! Je m'appelle " + nom + " et j'aime boidre du " + boissonFavorite);
+		parler("Bonjour! Je m'appelle " + nom + " et j'aime boire du " + boissonFavorite);
 	}
 	
 	public void boire() {
